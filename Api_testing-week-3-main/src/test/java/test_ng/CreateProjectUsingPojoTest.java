@@ -13,10 +13,10 @@ public class CreateProjectUsingPojoTest {
 
         // Create POJO object
         ProjectPojo pojo = new ProjectPojo(
-                "Sabarinathan",
-                "PojoProject",
+                "subhash",
+                "hello",
                 "Created",
-                5
+                7
         );
 
         RestAssured
