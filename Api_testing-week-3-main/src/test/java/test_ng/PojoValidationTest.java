@@ -14,8 +14,8 @@ public class PojoValidationTest {
         RestAssured.baseURI = "http://49.249.28.218:8091";
 
         ProjectPojo pojo = new ProjectPojo(
-                "Sabarinathan",
-                "PojoValidation",
+                "rockstar",
+                "hello",
                 "Created",
                 4
         );
@@ -28,7 +28,7 @@ public class PojoValidationTest {
                 .post("/addProject")
                 .then()
                 .statusCode(201)
-                .body("createdBy", equalTo("Sabarinathan"))
+                .body("createdBy", equalTo("hello"))
                 .log().all();
     }
 }
