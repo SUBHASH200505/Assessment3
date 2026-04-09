@@ -11,8 +11,8 @@ public class UpdateProjectByID {
 		RestAssured.given()
 			.contentType("application/json")
 			.body("{\r\n"
-					+ "  \"createdBy\": \"MoitheGreat\",\r\n"
-					+ "  \"projectName\": \"test3210207\",\r\n"
+					+ "  \"createdBy\": \"helloworld\",\r\n"
+					+ "  \"projectName\": \"admin111\",\r\n"
 					+ "  \"status\": \"Ongoing\",\r\n"
 					+ "  \"teamSize\": 0\r\n"
 					+ "}")
